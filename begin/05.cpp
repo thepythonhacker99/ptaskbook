@@ -1,6 +1,7 @@
 // Given the edge a of a cube, find the volume V = a3 and the surface area S =
 // 6·a*a of the cube
 
+#include <cmath>
 #include <iostream>
 
 int main() {
@@ -11,8 +12,8 @@ int main() {
   std::cin >> a;
 
   // calculate
-  int V = 3 * a;
-  int S = 6 * a * a;
+  int V = std::pow(a, 3);
+  int S = 6 * std::pow(a, 2);
 
   // display the answer
   std::cout << "Area: " << S << std::endl;
