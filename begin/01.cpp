@@ -18,6 +18,8 @@ int main() {
   int P = 4 * a;
 
   // display the answers
+  std::cout << std::endl;
+
   std::cout << "Perimeter: " << P << std::endl;
 
   return 0;

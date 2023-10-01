@@ -21,6 +21,8 @@ int main() {
   float L = PI * d;
 
   // display the answer
+  std::cout << std::endl;
+
   std::cout << "Length: " << L << std::endl;
 
   return 0;

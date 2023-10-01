@@ -26,6 +26,8 @@ int main() {
   int P = 2 * (a + b);
 
   // display the answer
+  std::cout << std::endl;
+
   std::cout << "Area: " << S << std::endl;
   std::cout << "Perimeter: " << P << std::endl;
 

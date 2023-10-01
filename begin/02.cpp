@@ -19,6 +19,8 @@ int main() {
   int S = std::pow(a, 2);
 
   // display the answers
+  std::cout << std::endl;
+
   std::cout << "Area: " << S << std::endl;
 
   return 0;

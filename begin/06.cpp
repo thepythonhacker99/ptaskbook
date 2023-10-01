@@ -35,6 +35,8 @@ int main() {
   int V = a * b * c;
 
   // display the answer
+  std::cout << std::endl;
+
   std::cout << "Area: " << S << std::endl;
   std::cout << "Volume: " << V << std::endl;
 

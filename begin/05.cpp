@@ -21,6 +21,8 @@ int main() {
   int S = 6 * std::pow(a, 2);
 
   // display the answer
+  std::cout << std::endl;
+
   std::cout << "Area: " << S << std::endl;
   std::cout << "Volume: " << V << std::endl;
 
