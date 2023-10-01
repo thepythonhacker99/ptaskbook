@@ -4,6 +4,11 @@
 #include <iostream>
 
 int main() {
+  std::cout << "The sides a and b of a rectangle are given. Find the area S = "
+               "a·b and the perimeter P = 2·(a + b) of the rectangle"
+            << std::endl
+            << std::endl;
+
   // get a
   int a;
 

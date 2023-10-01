@@ -3,6 +3,11 @@
 #include <iostream>
 
 int main() {
+  std::cout << "Given the side a of a square, find the perimeter P of the "
+               "square: P = 4·a"
+            << std::endl
+            << std::endl;
+
   // get a
   int a;
 

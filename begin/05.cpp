@@ -5,6 +5,11 @@
 #include <iostream>
 
 int main() {
+  std::cout << "Given the edge a of a cube, find the volume V = a3 and the "
+               "surface area S = 6·a2 of the cube"
+            << std::endl
+            << std::endl;
+
   // get a
   int a;
 
