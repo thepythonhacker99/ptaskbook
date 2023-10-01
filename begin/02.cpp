@@ -3,12 +3,16 @@
 #include <iostream>
 
 int main() {
+  // get a
   int a;
 
   std::cout << "a: ";
   std::cin >> a;
 
+  // calculate
   int S = a * a;
+
+  // display the answers
   std::cout << "Area: " << S << std::endl;
 
   return 0;
