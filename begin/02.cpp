@@ -1,5 +1,6 @@
 // Given the side a of a square, find the area S of the square: S = a*a
 
+#include <cmath>
 #include <iostream>
 
 int main() {
@@ -10,7 +11,7 @@ int main() {
   std::cin >> a;
 
   // calculate
-  int S = a * a;
+  int S = std::pow(a, 2);
 
   // display the answers
   std::cout << "Area: " << S << std::endl;
